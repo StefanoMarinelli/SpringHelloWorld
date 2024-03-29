@@ -35,5 +35,10 @@ public class HelloController {
         return "Koksalduiner con il suo Bismagulo";
     }
 
+    //Test casaliero
+    @GetMapping("Bismaguleiro")
+    public String greetParameterTest(){
+        return "hello-world-param";
+    }
 
 }
